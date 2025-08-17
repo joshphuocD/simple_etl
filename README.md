@@ -4,13 +4,15 @@ This project demonstrates a simple ETL pipeline built with Azure services. The r
 
 The data is then ingested, processed, and transformed in Azure Databricks using the Medallion Architecture:
 
-Bronze Layer: Stores the raw logs as ingested, preserving the original format.
+  - **Bronze Layer**: Stores the raw logs as ingested, preserving the original format.
 
-Silver Layer: Cleans and standardizes the data, applying schema enforcement, handling nulls, and enriching with additional attributes.
+  - **Silver Layer**: Cleans and standardizes the data, applying schema enforcement, handling nulls, and enriching with additional attributes.
 
-Gold Layer: Produces curated, business-ready datasets that capture key insights about customer usage patterns, trends, and performance metrics.
+  - **Gold Layer**: Produces curated, business-ready datasets that capture key insights about customer usage patterns, trends, and performance metrics.
 
 Finally, the transformed results in the Gold layer are made available for visualization and analysis in Power BI, enabling interactive dashboards and data-driven decision-making around customer behavior and service usage.
+
+![Architecture Overview](img/simple_etl.png)
 
 
 
