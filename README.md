@@ -95,3 +95,5 @@ Finally, the transformed results in the Gold layer are made available for visual
   - **Gold Layer**: Applies final business-level transformations to generate curated datasets optimized for analytics, reporting, or machine learning. This layer contains denormalized, analysis-ready tables for business users and dashboards.  
 
 - After running the pipeline, the result files will be generated in the **bronze**, **silver**, and **gold** folders.  
+
+![run pipeline](img/run_pipeline_4.png)  
